@@ -1,0 +1,119 @@
+body {
+background-image: url("./images/cartoonbackground2.jpg");
+background-color: #000000;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: bottom right;
+background-size: 60%, 120%;
+}
+
+  a:link {
+    color: beige;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: beige;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:beige;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: beige;
+    text-decoration: none;
+  }
+
+div.wrapper section.about-me header#about-me-header {
+    font-size: 50px;
+    color: rgb(213, 181, 255);;
+    text-align: center;
+
+}
+
+div.wrapper section.about-me article#personal {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    width: 800px;
+    height: 300px;
+}
+
+div.wrapper section.about-me article#personal div#about-heading {
+    color: rgb(213, 181, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.wrapper section.projects div#projects-header {
+    color: rgb(213, 181, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+div.wrapper section.projects div#coming-soon {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+div.wrapper section.about-me article#personal div#current-residence {
+    padding: 5px;
+    margin: 5px;
+}
+
+div.wrapper section.about-me article#personal div#previous-residence {
+    padding: 5px;
+    margin: 5px;
+}
+
+div.wrapper section.about-me article#personal div#aspiration {
+    padding: 5px;
+    margin: 5px;
+}
+
+div.wrapper section.about-me article#personal div#study {
+    padding: 5px;
+    margin: 5px;
+}
+
+div.wrapper section.about-me article#personal div#future{
+    padding: 5px;
+    margin: 5px;
+}
+
+div.wrapper section.about-me article#personal div#hobbies {
+    padding: 5px;
+    margin: 5px;
+}
+
+div.wrapper footer#footer {
+    font-size: 15px;
+    color: rgb(213, 181, 255);
+    float: right, fixed;
+    text-align: right;
+    margin-top: 250px;
+}
+
+span.link {
+    cursor: pointer;
+}
+
+.displayMe {
+    max-width: 250px;
+    max-height: 250px;
+    position: absolute;
+    z-index: 100;
+}
+
+.displayMe img {
+    width: 100%;
+    box-shadow: 2px 2px 5px;
+}
