@@ -1,6 +1,6 @@
 
 const body = document.querySelector('body');
-const imgContainer = document.createElement(div)
+const imgContainer = document.createElement('div')
 
 function displayImg(imgUrl, elt) {
 
@@ -20,6 +20,7 @@ function displayImg(imgUrl, elt) {
 
         imgContainer.style.right = '20px';
         imgContainer.style.left = 'auto';
+        
     } else {
 
         imgContainer.style.left = elt.offsetLeft + 'px';
